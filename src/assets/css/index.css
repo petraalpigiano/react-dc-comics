@@ -20,15 +20,16 @@ a {
 } */
 
 /* PER VEDERE I CONTAINER */
-.debug * {
+/* .debug * {
   min-height: 50px;
   padding: 5px;
   background-color: rgba(255, 0, 0, 0.236);
   border: 2px dashed red;
-}
+} */
 
 /* GRIGLIA DI COLONNE */
-.content-info {
+.content-info,
+.content-links {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -42,7 +43,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   row-gap: 1rem;
-  justify-content: space-around;
 
   margin-left: -0.5rem;
   margin-right: -0.5rem;
@@ -51,9 +51,6 @@ a {
 [class*="col"] {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .col-1-2 {
@@ -92,23 +89,81 @@ a {
 .background-info {
   background-color: #0082f9;
 }
-.col img {
+.c-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-info img {
   width: 2.5rem;
 }
-.col:nth-child(4) img {
+.c-info:nth-child(4) img {
   width: 2rem;
 }
-.col h4 {
+.c-info h4 {
   font-size: 0.6rem;
   color: white;
   padding-left: 1rem;
   font-weight: 100;
 }
+.r-info {
+  justify-content: space-around;
+}
 
 /* FOOTER */
+/* LINKS PART */
 .background-links {
   background-image: url(/p_img/footer-bg.jpg);
 }
+
+.content-links {
+  display: flex;
+  justify-content: space-between;
+}
+.content-links img {
+  width: 10rem;
+}
+.nav-footer a {
+  display: block;
+}
+.footer-link {
+  font-size: 0.6rem;
+  color: #627879;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.c-footer h5 {
+  color: white;
+
+  padding-bottom: 1rem;
+}
+/* SOCIALS PART */
 .background-socials {
   background-color: #303030;
+}
+.content-socials {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-socials button {
+  padding: 0.8rem;
+  color: white;
+  background-color: transparent;
+  border: 2px solid #0082f9;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials h4 {
+  color: #0082f9;
+  padding-right: 1rem;
+}
+.socials img {
+  margin-right: 0.7rem;
+  width: 1.5rem;
 }
