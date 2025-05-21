@@ -1,19 +1,45 @@
 export default function Header() {
   return (
     <>
-      <img src="/p_img/dc-logo.png"></img>
-      <nav>
-        <a href="#">CHARACTER</a>
-        <a href="#">COMICS</a>
-        <a href="#">MOVIES</a>
-        <a href="#">TV</a>
-        <a href="#">GAMES</a>
-        <a href="#">COLLECTIBLES</a>
-        <a href="#">VIDEO</a>
-        <a href="#">FANS</a>
-        <a href="#">NEWS</a>
-        <a href="#">SHOP</a>
-      </nav>
+      <header className="container content-header">
+        <img
+          className="header-logo"
+          src="/p_img/dc-logo.png"
+          alt="DC logo"
+        ></img>
+        <nav>
+          <a className="header-link" href="#">
+            CHARACTER
+          </a>
+          <a className="header-link" href="#">
+            COMICS
+          </a>
+          <a className="header-link" href="#">
+            MOVIES
+          </a>
+          <a className="header-link" href="#">
+            TV
+          </a>
+          <a className="header-link" href="#">
+            GAMES
+          </a>
+          <a className="header-link" href="#">
+            COLLECTIBLES
+          </a>
+          <a className="header-link" href="#">
+            VIDEO
+          </a>
+          <a className="header-link" href="#">
+            FANS
+          </a>
+          <a className="header-link" href="#">
+            NEWS
+          </a>
+          <a className="header-link" href="#">
+            SHOP
+          </a>
+        </nav>
+      </header>
     </>
   );
 }
