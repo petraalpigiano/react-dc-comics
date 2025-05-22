@@ -11,7 +11,7 @@ export default function ComicList() {
               <ComicCard
                 image={comic.thumb}
                 title={comic.title}
-                key={id}
+                key={comic.id}
               ></ComicCard>
             );
           })}
