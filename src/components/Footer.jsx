@@ -4,7 +4,7 @@ export default function Footer() {
       <section className="background-links">
         <div className="container content-links">
           <div className="row r-footer">
-            <div class="col c-footer">
+            <div className="col c-footer">
               <h5>DC COMICS </h5>
               <nav className="nav-footer">
                 <a className="footer-link" href="#">
@@ -24,7 +24,7 @@ export default function Footer() {
                 </a>
               </nav>
             </div>
-            <div class="col c-footer">
+            <div className="col c-footer">
               <h5>DC</h5>
               <nav className="nav-footer">
                 <a className="footer-link" href="#">
@@ -44,7 +44,7 @@ export default function Footer() {
                 </a>
               </nav>
             </div>
-            <div class="col c-footer">
+            <div className="col c-footer">
               <h5>SITES</h5>
               <nav className="nav-footer">
                 <a className="footer-link" href="#">
