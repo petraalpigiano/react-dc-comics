@@ -5,6 +5,9 @@ export default function Main() {
     <>
       <div className="background-main">
         <ComicList />
+        <div className="container content-button">
+          <button>LOAD MORE</button>
+        </div>
       </div>
     </>
   );

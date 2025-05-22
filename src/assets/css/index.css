@@ -193,3 +193,18 @@ a {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
 }
+.content-button {
+  display: flex;
+  justify-content: center;
+}
+.content-button button {
+  padding: 0.5rem;
+  color: white;
+  font-weight: 600;
+  font-size: 0.6rem;
+  background-color: #0082f9;
+  border: 2px solid #0082f9;
+  margin-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
