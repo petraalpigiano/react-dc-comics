@@ -183,13 +183,18 @@ a {
 }
 
 /* ALERT */
-.content-alert {
+.alert {
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+.alert-info {
+  color: rgb(126, 201, 241);
+  background-color: blue;
+  border: blue;
 }
 
 /* COMIC CARD */

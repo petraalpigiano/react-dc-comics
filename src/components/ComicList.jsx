@@ -6,7 +6,7 @@ export default function ComicList() {
     <>
       <div className="container content-main">
         <div className="row">
-          {comics.map(function (comic, id) {
+          {comics.map(function (comic) {
             return (
               <ComicCard
                 image={comic.thumb}

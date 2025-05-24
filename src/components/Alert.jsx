@@ -1,8 +1,8 @@
 export default function Alert({ text, color }) {
   return (
     <>
-      <div className="container content-alert">
-        <div>{text}</div>
+      <div className="container">
+        <div className={`alert alert-${color}`}>{text}</div>
       </div>
     </>
   );
