@@ -8,7 +8,13 @@ export default function App() {
   return (
     <>
       <Header />
-      <Alert />
+      <Alert>
+        <ul>
+          <li>Il fumetto non è piu in circolazione</li>
+          <li>Se ne hai una copia potrebbe valere milioni</li>
+          <li>Attento, i fan pazzi ti potrebbe entrare in casa!</li>
+        </ul>
+      </Alert>
       <Main />
       <Info />
       <Footer />
