@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <Alert text="Messaggio di info" color="info" />
+      <Alert />
       <Main />
       <Info />
       <Footer />
